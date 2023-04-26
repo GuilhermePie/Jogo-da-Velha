@@ -13,7 +13,14 @@ function handleClick(event){
 
    if (handleMove(position)){
     setTimeout(() => {
-        alert("O jogo acabou");
+        if(playerTime == 0){
+            var x = " 🛡 Ganhou o Jogo 🛡 "
+            alert(x);
+        }else{
+            var y = " ⚔ Ganhou o Jogo ⚔ "
+            alert(y);
+        }
+        
     }, 100);
     
     
@@ -29,10 +36,6 @@ function updateSquare(position){
 
 }
 
-// function rei(gameOver){
-    
-//     return console.log('oi')
-// }
 
 // function updateSquares(){
 //     let squares = document.querySelectorAll(".square");

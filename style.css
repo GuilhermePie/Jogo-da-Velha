@@ -44,3 +44,19 @@ h1{
     font-size: 50px;
     line-height: 100px;
 }
+
+.nome{
+    display: inline-block;
+    padding: 10px 73px 10px 73px;
+    border: solid black 1px;
+    font-size: 20PX;
+    margin-bottom: 4px;
+}
+
+#rei{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 126px 10px 126px;
+    background-color: white;
+    border: solid black 1px;
+}
